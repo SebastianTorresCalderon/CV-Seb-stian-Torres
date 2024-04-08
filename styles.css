@@ -1,0 +1,103 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+hr{
+    height: 3px;
+    background-color: black;
+}
+/*ENCABEZADO*/
+.header{
+    background-color: darkblue;
+    color: white;
+    float: left;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+
+}
+
+#image_box{
+    position: relative;
+    top: 20px;
+    left: 170px;
+    float: left;
+    width: 165px;
+    height: 165px;
+}
+#title_box{
+
+    line-height: 70px;
+    text-align: center;
+    width: 100%;
+    height: 170px;
+}
+#curriculum_foto{
+    position: relative;
+    width: 165px;
+    height: 165px;
+}
+
+
+/*BARRA LATERAL IZQUIERDO*/
+.sidebar{
+    background-color: rgb(166, 194, 226);
+    float: left;
+    width: 35%;
+    height: 1000px;
+}
+
+
+.box_side{
+    line-height: 25px;
+    position: relative;
+    bottom: 10px;
+    float: left;
+    width: 97%;
+    height: 187px;
+    margin: 7px;
+}
+
+
+/*BARRA CENTRAL*/
+
+.content{
+    float: left;
+    width: 65%;
+    height: 1000px;
+    background-color: rgb(46, 51, 116);
+}
+
+.content_first_text{
+    color: white;
+    font-size: 18px;
+    float: left;
+    width: 98%;
+    height: 187px;
+    margin: 7px;
+}
+
+.content_second_text{
+    color: white;
+    font-size: 18px;
+    float: left;
+    width: 98%;
+    height: 550px;
+    margin: 7px;
+}
+
+.content_third_text{
+    color: white;
+    float: left;
+    width: 98%;
+    height: 225px;
+    margin: 7px;
+}
+.sanjose{
+    float: left;
+    width: 350px;
+}
+.sanpablo{
+    float: right;
+    width: 400px;
+}
